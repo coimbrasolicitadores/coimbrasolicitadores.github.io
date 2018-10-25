@@ -1,0 +1,9 @@
+body
+{
+	padding-top:3.5rem;
+}
+
+#map
+{
+	min-height: 400px;
+}
