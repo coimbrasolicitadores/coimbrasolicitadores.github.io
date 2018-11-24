@@ -7,6 +7,7 @@
 		<meta name="keywords" content="serviço,solicitadoria,solicitador,apoio,jurídico,legal,coimbra,portugal,escrituras,partilhas,contratos,dpa"/>
 		<meta name="description" content="Serviços de Solicitadoria em Coimbra : partilhas, reconhecimentos, procurações..."/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="sitemap" href="sitemap.xml" type="application/xml" />
 	</head>
@@ -16,7 +17,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsed-content" aria-controls="navbar-collapsed-content" aria-expanded="false" aria-label="Activar navegação">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbar-collapsed-content">
+			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav mr-auto">
 					<!--
 						<li class="nav-item">
@@ -35,7 +36,7 @@
 
 		<main role="main">
 		
-			<div class="jumbotron" id="Serviços">
+			<div class="jumbotron" id="Header">
 				<div class="container">
 					<h1 class="display-3">Serviços Jurídicos</h1>
 					<p>
@@ -44,28 +45,105 @@
 				</div>
 			</div>
 			
-			<div class="container">
+			<div class="container" id="Serviços">
 				<div class="row">
-					<div class="col-md-4">
-						<h2>Contratos</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-							condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-							sed odio dui. </p>
-						<p><a class="btn btn-secondary" href="#" role="button">Saber mais &raquo;</a></p>
+					<div class="col-md-6">
+						<h2>Imóveis</h2>
+						<ul>
+							<li> Compra e venda</li>
+							<li> Hipoteca</li>
+							<li> Doação</li>
+						</ul>
+						<ul id="collapseImoveis" class="collapse">
+							<li> Contratos promessa com eficácia real</li>
+							<li> Pactos de preferência com eficácia real</li>
+							<li> Constituição ou modificação da propriedade horizontal</li>
+							<li> Constituição ou modificação do direito de habitação periódica (time-sharing)</li>
+							<li> Consignação de rendimentos (atribuição de uma renda resultante de um imóvel)</li>
+							<li> Divisão de coisas comuns (divisão de imóvel que se encontra em regime de compropriedade)</li>
+							<li> Mútuo (empréstimo)</li>
+							<li> Transmissão de créditos garantidos por hipoteca</li>
+							<li> Respectivos registos e cumprimentos das obrigações fiscais</li>
+						</ul>
+						<div class="text-center">
+							<i class="fas fa-angle-down btn" data-toggle="collapse" data-target="#collapseImoveis"> </i>
+							<i class="fas fa-angle-up btn" data-toggle="collapse" data-target="#collapseImoveis"> </i>
+						</div>
+						
 					</div>
-					<div class="col-md-4">
-						<h2>Partilhas</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-							condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-							sed odio dui. </p>
-						<p><a class="btn btn-secondary" href="#" role="button">Saber mais &raquo;</a></p>
+					<div class="col-md-6">
+						<h2>Heranças e Partilhas</h2>
+						<ul>
+							<li>  Aconselhamento jurídico (ex.:quem são os herdeiros, que quota cabe a cada um na herança, que trâmites seguir)</li>
+							<li>  Obtenção de NIF de herança indivisa</li>
+							<li>  Preparação de declaração do Imposto de Selo</li>
+						</ul>
+						<ul id="collapseHerancas" class="collapse">
+							<li>  Preenchimento e entrega de declaração Mod 1 para efeitos de IMI</li>
+							<li>  Obtenção de documentação, marcação e acompanhamento do título de habilitação de herdeiros</li>
+							<li>  Averbamento dos prédios em nome da herança</li>
+							<li>  Preparação da partilha com obtenção de certidões (ex.: teor matricial, da Conservatória, de aumento de compartes)</li>
+							<li>  Obtenção do título bastante para a partilha dos bens</li>
+							<li>  Pedido de liquidação de IMT, após partilha</li>
+							<li>  Averbamento dos prédios em nome dos novos proprietários  na respectiva matriz</li>
+							<li>  Registo na Conservatória respectiva dos bens sujeitos a registo (prédios, automóveis, quotas de sociedades) em nome dos novos proprietários</li>
+							<li>  Representação com mandato e total acompanhamento até à sentença de homologação  na tramitação de partilha judicial, caso os herdeiros não cheguem a acordo.</li>
+						</ul>
+						<div class="text-center">
+							<i class="fas fa-angle-down btn" data-toggle="collapse" data-target="#collapseHerancas"> </i>
+							<i class="fas fa-angle-up btn" data-toggle="collapse" data-target="#collapseHerancas"> </i>
+						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
+						<h2>Sociedades Comerciais</h2>
+						<ul>
+							<li>  Constituição de sociedades </li>
+							<li>  Alteração do pacto social</li>
+							<li>  Cessão de quotas</li>
+							<li>  Divisão e unificação de quotas</li>
+							<li>  Alteração dos titulares dos órgãos sociais</li>
+						</ul>
+						<ul id="collapseSociedades" class="collapse">
+							<li>  Transformação de sociedade</li>
+							<li>  Fusões e cisões</li>
+							<li>  Penhor e arresto de quotas</li>
+							<li>  Registo de marca </li>
+							<li>  Obtenção de certidões </li>
+							<li>  Amortização de quotas</li>
+							<li>  Aumento ou redução do capital social</li>
+							<li>  Contrato de mandato ou agência</li>
+							<li>  Conversão de registos provisórios</li>
+							<li>  Cancelamento e rectificação de registos por depósitos efectuados “on-line”</li>
+						</ul>
+						<div class="text-center">
+							<i class="fas fa-angle-down btn" data-toggle="collapse" data-target="#collapseSociedades"> </i>
+							<i class="fas fa-angle-up btn" data-toggle="collapse" data-target="#collapseSociedades"> </i>
+						</div>
+					</div>
+					<div class="col-md-6">
 						<h2>Outros</h2>
-						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis
-							euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-							sit amet risus.</p>
-						<p><a class="btn btn-secondary" href="#" role="button">Saber mais &raquo;</a></p>
+						<ul>
+							<li> Certificação  de fotocópias</li>
+							<li> Autenticação de documentos particulares (permite atribuir ao documento a força probatória dos documentos autênticos, exigindo-se que as partes confirmem o seu conteúdo perante o solicitador)</li>
+							<li> Reconhecimento de assinaturas</li>
+						</ul>
+						<ul id="collapseOutros" class="collapse">
+							<li> Reconhecimento de letra e assinatura </li>
+							<li> Reconhecimento com menções especiais (ex.: referência da qualidade e de poderes para o acto)</li>
+							<li> Tradução de documento em língua estrangeira, e certificação da tradução ou apenas certificação da tradução efectuada por tradutor</li>
+						</ul>
+						<div class="text-center">
+							<i class="fas fa-angle-down btn" data-toggle="collapse" data-target="#collapseOutros"> </i>
+							<i class="fas fa-angle-up btn" data-toggle="collapse" data-target="#collapseOutros"> </i>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h2>Transmissão e oneração de veículos</h2>
+						<ul>
+							<li>Registo de transmissão.</li>
+							<li>Cancelemento de Reserva de propriedade e outros encargos</li>
+							<li>...</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -75,18 +153,33 @@
 						<div class="row">
 							<div class="col-md-6">
 								<h1 class="display-3">Contactos</h1>
-								<p>
-									This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-									and three supporting pieces of content. Use it as a starting point to create something more unique.
-								</p>
-								<p>
-									This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-									and three supporting pieces of content. Use it as a starting point to create something more unique.
-								</p>
-								<p>
-									This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-									and three supporting pieces of content. Use it as a starting point to create something more unique.
-								</p>
+								<br>
+								<div class="row no-gutters">
+									<div class="col-2 text-center">
+										<i class="fas fa-map-marker"></i>
+									</div>
+									<div class="col-10">
+										<a href="https://goo.gl/maps/5FDdCtLmpJF2" target="_blank">Urbanização Quinta da Várzea, Lote 14, Loja 4<br>3040-255 Coimbra</a>
+									</div>
+								</div>
+								<br>
+								<div class="row no-gutters">
+									<div class="col-2 text-center">
+										<i class="fas fa-phone fa-rotate-90"></i>
+									</div>
+									<div class="col-10">
+										<a href="tel:+351239091617" target="_blank">239 091 617</a>
+									</div>
+								</div>
+								<br>
+								<div class="row no-gutters">
+									<div class="col-2 text-center">
+										<i class="fas fa-at"></i>
+									</div>
+									<div class="col-10">
+										<a href="mailto:servicos.juridicos@coimbrasolicitadores.pt" target="_blank">servicos.juridicos@coimbrasolicitadores.pt</a>
+									</div>
+								</div>
 							</div>
 							<div class="col-md-6" id="map">
 							</div>

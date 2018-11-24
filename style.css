@@ -7,3 +7,25 @@ body
 {
 	min-height: 400px;
 }
+
+.fa-angle-up[data-toggle] {
+	position: absolute;
+	opacity: 0;
+}
+.fa-angle-up[data-toggle][aria-expanded="true"] {
+	position: inherit;
+	opacity: 1;
+}
+
+.fa-angle-down[data-toggle] {
+	position: inherit;
+	opacity: 1;
+}
+.fa-angle-down[data-toggle][aria-expanded="true"] {
+	position: absolute;
+	opacity: 0;
+}
+
+#Contactos i.fas {
+	font-size: xx-large;
+}
