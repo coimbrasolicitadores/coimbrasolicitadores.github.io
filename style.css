@@ -26,6 +26,10 @@ body
 	opacity: 0;
 }
 
+#Contactos a {
+	color:inherit;
+}
+
 #Contactos i.fas {
 	font-size: xx-large;
 }
